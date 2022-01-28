@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(206, 252, 195);
+    font-family: sans-serif;
+}
+
+
+.container{
+    box-shadow: rgb(0, 43, 0) 3px 4px 25px;
+    background-color: rgba(48, 88, 25, 0.4);
+    height: 100%;
+    margin: 3rem auto;
+    border-radius: 1rem;
+    width: 45rem;
+}
+
+.container h1{
+    text-align: center;
+    padding: 2rem;
+}
+
+.container p{
+    width: 35rem;
+    margin-left: 6rem ;
+}
+
+.sub-section{
+    padding: 3rem;
+}
+
+.content{
+    height: 15rem;
+    border:2px solid black ;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0,0.7);
+    height: 10rem;
+    width: 20rem;
+    position: absolute;
+    margin-top: 2.4rem;
+    margin-left: 1rem;
+    border:2px solid black ;
+    cursor: pointer;
+    opacity: 0;
+    transition:all .4s ease-in-out;
+}
+.sub-section img:hover .overlay{
+    opacity: 1;
+
+}
+ 
+.sub-section img:hover .def{
+    opacity: 1;
+}
+
+.sub-section img{
+    width: 20rem;
+    height: 10rem;
+    margin-top: 2.4rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+    border:2px solid black ;
+    cursor: pointer;
+}
+
+
+.def{
+    opacity: 0;
+}
+
+.side-content{
+    padding: 10rem;
+    position: relative;
+    top: -22rem;
+    left: 7rem;
+}
