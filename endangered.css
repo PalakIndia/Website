@@ -23,11 +23,6 @@ body{
     padding: 2rem;
 }
 
-.container p{
-    width: 35rem;
-    margin-left: 6rem ;
-}
-
 .sub-section{
     padding: 3rem;
 }
@@ -38,44 +33,47 @@ body{
 }
 
 .overlay{
-    background-color: rgba(0, 0, 0,0.7);
-    height: 10rem;
-    width: 20rem;
+  top: 0;
+  padding : 5px;
+    background: rgba(0, 0, 0,0.7);
     position: absolute;
-    margin-top: 2.4rem;
-    margin-left: 1rem;
     border:2px solid black ;
     cursor: pointer;
     opacity: 0;
     transition:all .4s ease-in-out;
+    width: inherit;
+    height: inherit;
 }
-.sub-section img:hover .overlay{
-    opacity: 1;
-
+.overlay h3, .overlay p{
+  color: white;
+  opacity: 100%;
 }
- 
-.sub-section img:hover .def{
+.image-container:hover .overlay
+{
     opacity: 1;
 }
 
 .sub-section img{
-    width: 20rem;
-    height: 10rem;
-    margin-top: 2.4rem;
-    margin-left: 1rem;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
     border:2px solid black ;
     cursor: pointer;
 }
-
+.side-content{
+  padding: 3rem;
+}
 
 .def{
     opacity: 0;
 }
 
-.side-content{
-    padding: 10rem;
-    position: relative;
-    top: -22rem;
-    left: 7rem;
+.image-container{
+  position: relative;
+  width: 20rem;
+  height: 10rem;
+  margin-top: 2.4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  float: left;
 }
