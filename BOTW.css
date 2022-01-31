@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(103, 185, 103);
+}
+
+table{
+    justify-content: center;
+    display: flex;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+th{
+    background-color: rgb(217, 255, 205);
+}
+td{
+    background-color: white;
+}
+td,th{
+    border: 1px solid black;
+    padding: 1rem;
+    width: 13rem;
+}
+
+
+table td img{
+    height: 5rem;
+    width: 8rem;
+    /* margin-left: 1.3rem; */
+}

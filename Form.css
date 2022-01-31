@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(60, 61, 6);
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    font-weight: 700;
+
+}
+.form{
+    filter: blur(1px);
+}
+
+form{
+    background-image: url(bgfrom.jpeg);
+    padding: 3rem;
+    text-align: center;
+    background-size:100% 130%;
+    background-repeat: no-repeat;
+    box-shadow: 3px 4px 25px rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+
+.file{
+    margin-left: 5rem;
+}
+
+form input{
+    margin: 0 auto;
+}
+
+form label, input{
+    display: block;   
+    margin: 1rem;
+    position: relative;
+    padding: .2rem;
+}
+
+button{
+   padding: .5rem;
+   width: 6rem;
+   background-color: transparent;
+   border: 2px solid rgb(52, 65, 5);
+   font-weight: 700;
+   color: rgb(10, 9, 9);
+   cursor: pointer;
+   overflow: hidden;
+}
+
+
+
+
