@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="about-us.css">
+</head>
+<body>
+    <div class="container">
+        <div class="information-section">
+            <h1>WELCOME TO INFORMATION SECTION!</h1>
+<p class="detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vitae voluptatum repellendus eius molestiae aperiam voluptates saepe quaerat voluptatibus ipsum cum sit asperiores natus corporis tempore dolor nobis, deserunt sunt assumenda dolorem praesentium vero quas, explicabo ut! Incidunt error laboriosam quaerat autem doloribus unde eos corporis, veritatis at consequuntur voluptates nesciunt enim reprehenderit cum saepe. Explicabo at est tenetur exercitationem!</p>
+
+
+<div class="sub-titles">
+    <h4>LIFE-CYCLE -</h4>
+    <p class="def">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, consequuntur?</p>
+<img src="lifecycle.jpeg" alt="">
+</div>
+
+
+<div class="sub-titles">
+    <h4>MIGRATION -</h4>
+    <p class="def">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, consequuntur?</p>
+<img src="download.jpg" alt="">
+</div>
+
+<div class="sub-titles">
+    <h4>DIET -</h4>
+    <p class="def">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, consequuntur?</p>
+<img src="diet.jpeg" alt="">
+</div>
+
+<div class="sub-titles">
+    <h4>HABITAT -</h4>
+    <p class="def">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, consequuntur?</p>
+<img src="habitat.jpg" alt="">
+</div>
+
+<a href="Website.html"><button>Back to Homepage</button></a>
+</div>
+    </div>
+</body>
+</html>
