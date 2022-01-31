@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body{
+    background-color: rgb(206, 252, 195);
+}
+
+
+.container{
+    width: 45rem;
+    margin: 2rem  auto;
+
+}
+
+.information-section{
+margin: 3rem auto;
+box-shadow: 3px 4px 25px rgb(0, 43, 0);
+background-color: rgba(48, 88, 25, 0.4);
+height: 100%;
+border-radius: 1rem;
+}
+
+.information-section h1{
+text-align: center;
+top: 1rem;
+position: relative;
+color: rgb(17, 37, 9);
+}
+
+.information-section .detail{
+    /* margin: 3rem auto; */
+    padding: 3rem;
+    text-align: center;
+}
+
+button{
+    height: 3rem;
+    width: 8rem;
+    border-radius: 10px;
+    border: 1px solid green;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    margin-left: 18rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    cursor: pointer;
+    background-color: rgba(48, 88, 25, 0.4);   ;
+}
+
+button:hover{
+    background-color: transparent;
+}
+.sub-titles{
+    margin-top: 4rem ;
+}
+
+.sub-titles h4{
+    margin-left: 4rem;
+}
+
+.def{
+    margin-left: 11rem;
+    margin-top: -1.2rem;
+}
+
+.sub-titles img{
+    height: 10rem;
+    width: 19rem;
+    margin: 1rem 12rem auto;
+    border-radius: 2px;
+}
