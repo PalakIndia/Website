@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h6{
+    display: grid;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+}
+
+
+
+h3{
+position: relative;
+top: 3rem;
+}
+
+.info-links{
+    width: 20rem;
+    left: 15rem;
+    top: -5rem;
+    display: block;
+    position: relative;
+}
+
+img{
+    height: 12rem;
+    position: relative;
+    top: 10rem;
+    left: -20rem;
+}
+
+.info{
+    display: grid;
+    justify-content: center;
+    margin-right: 10rem;
+}
+

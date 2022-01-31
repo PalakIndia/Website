@@ -17,18 +17,25 @@ body{
     font-weight: 700;
 
 }
-.form{
-    filter: blur(1px);
+img{
+   position: absolute;
+   height: 37rem;
+   width: 27.4rem;
+   top: 2.2rem;
+   filter: blur(2px);
+   z-index: 1;
+   left: 29rem;
+   border-radius: 10px;
 }
 
 form{
-    background-image: url(bgfrom.jpeg);
+    /* background-image: url(bgfrom.jpeg); */
     padding: 3rem;
     text-align: center;
-    background-size:100% 130%;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     box-shadow: 3px 4px 25px rgb(0, 0, 0);
     border-radius: 10px;
+    z-index: 900;
 }
 
 
