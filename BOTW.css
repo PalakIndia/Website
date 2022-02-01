@@ -33,3 +33,23 @@ table td img{
     width: 8rem;
     /* margin-left: 1.3rem; */
 }
+
+button{
+    margin:1rem 8rem;
+    padding: .5rem;
+    background-color: rgba(48, 88, 25, 0.4);   ;
+    border-radius: 10px;
+    border: 1px solid green;
+    cursor: pointer;
+    margin-bottom: 4rem;
+    position: relative;
+    left: 18rem;
+}
+
+button:hover{
+    background-color: transparent;
+}
+
+.btn{
+    /* margin-left: 30rem; */
+}
