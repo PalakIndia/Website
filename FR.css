@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -23,15 +23,15 @@ position: relative;
 top: 3rem;
 }
 
-.info-links{
+/* .info-links{
     width: 20rem;
     left: 15rem;
     top: -5rem;
     display: block;
     position: relative;
-}
+} */
 
-img{
+/* img{
     height: 12rem;
     position: relative;
     top: 10rem;
@@ -42,5 +42,73 @@ img{
     display: grid;
     justify-content: center;
     margin-right: 10rem;
+} */
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
+body{
+    width: 100%;
+}
+
+h6{
+    display: grid;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+h3{
+    display: grid;
+    justify-content: center;
+}
+
+.img-container img{
+    width:300px;
+    margin: 3rem 25rem;
+}
+
+/* .info-links{
+    position: relative;
+    left: 45rem;
+    top: -13rem;
+    width: 400px;
+} */
+
+.info-links{
+    width: 500px;
+    left: 45rem;
+    top: -13rem;
+    position: relative;
+}
+
+hr{
+    left: 12rem;
+    position: relative;
+    width: 60rem;
+}
+
+
+button{
+    left: 38rem;
+    padding: .5rem;
+    background-color: rgba(48, 88, 25, 0.4);   ;
+    border-radius: 10px;
+    border: 1px solid green;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+button:hover{
+    background-color: transparent;
+}
+
+.btn{
+    margin-left: 14rem;
+}
