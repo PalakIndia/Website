@@ -95,3 +95,21 @@ body{
     top: -18rem;
     left: 7rem;
 }
+
+button{
+    margin: 1rem 5rem;
+    padding: .5rem;
+    background-color: rgba(48, 88, 25, 0.4);   ;
+    border-radius: 10px;
+    border: 1px solid green;
+    cursor: pointer;
+    margin-bottom: 4rem;
+}
+
+button:hover{
+    background-color: transparent;
+}
+
+.btn{
+    margin-left: 14rem;
+}
