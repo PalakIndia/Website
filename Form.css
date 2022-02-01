@@ -19,9 +19,9 @@ body{
 }
 img{
    position: absolute;
-   height: 37rem;
+   height: 40rem;
    width: 27.4rem;
-   top: 2.2rem;
+   top: .5rem;
    filter: blur(2px);
    z-index: 1;
    left: 29rem;
@@ -58,13 +58,20 @@ button{
    padding: .5rem;
    width: 6rem;
    background-color: transparent;
-   border: 2px solid rgb(52, 65, 5);
+   border: 2px solid rgb(19, 5, 27);
    font-weight: 700;
    color: rgb(10, 9, 9);
    cursor: pointer;
    overflow: hidden;
 }
 
-
+button:hover{
+    transition: .3s ease;
+    box-shadow: inset 6rem 0 0 0 rgb(218, 171, 218);
+}
+h2{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
 
 
